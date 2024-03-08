@@ -29,7 +29,7 @@ import CountriesAPI from './CountriesAPI';
 const Countries = () => {
   return (
     <div>
-      <div>Countries List will be here</div>
+      <div>This is the Countries page :)</div>
       {/* <CountriesDetail countries={mockData} /> */}
       <CountriesAPI />
     </div>
