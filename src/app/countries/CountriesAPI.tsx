@@ -25,7 +25,7 @@ const CountriesAPI = () => {
 
   return (
     <>
-      <div>Countries API</div>
+      <h2>Countries API</h2>
 
       {countries.map((country, index) => (
         <div key={`${country.capital[0]}${index}`}>
