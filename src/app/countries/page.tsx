@@ -28,7 +28,7 @@ const Countries = () => {
   return (
     <div>
       <div>Countries List will be here</div>
-      <CountriesDetail />
+      <CountriesDetail countries={mockData} />
     </div>
   );
 };
